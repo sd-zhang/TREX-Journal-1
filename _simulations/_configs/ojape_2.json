@@ -1,0 +1,205 @@
+{
+    "version": "3.6.1",
+    "study": {
+      "name": "ojape_bess_1",
+      "description": "",
+      "start_datetime": "2018-07-01 0:0:0",
+      "start_datetime_sequence": "sequential",
+      "timezone": "America/Vancouver",
+      "days": 30,
+      "generations": 300,
+      "profiles_db_location": "",
+      "output_db_location": "",
+      "sim_root": ""
+    },
+    "server": {
+      "host": "",
+      "port": "3100"
+    },
+    "market": {
+      "id": "",
+      "type": "MicroFE",
+      "close_steps": 2,
+      "grid": {
+        "price": 0.069,
+        "fee_ratio": 1.1
+      }
+    },
+    "R5": {
+      "egauge19821": {
+        "type": "Residential",
+        "trader": {
+          "track_metrics": true,
+          "type": "sma_crossover",
+          "bid_price": 0.08,
+          "ask_price": 0.12,
+          "learning": true
+        },
+        "load": {
+          "scale": 1
+        },
+        "generation": {
+          "scale": 1
+        }
+      },
+      "R6": {
+        "type": "Residential",
+        "trader": {
+          "track_metrics": true,
+          "type": "sma_crossover",
+          "bid_price": 0.08,
+          "ask_price": 0.12,
+          "learning": true
+        },
+        "load": {
+          "scale": 1
+        },
+        "generation": {
+          "scale": 1
+        }
+      },
+      "R7": {
+        "type": "Residential",
+        "trader": {
+          "track_metrics": true,
+          "type": "sma_crossover",
+          "bid_price": 0.08,
+          "ask_price": 0.12,
+          "learning": true
+        },
+        "load": {
+          "scale": 0.5
+        },
+        "generation": {
+          "scale": 0.5
+        }
+      },
+      "R8": {
+        "type": "Residential",
+        "trader": {
+          "track_metrics": true,
+          "type": "sma_crossover",
+          "bid_price": 0.08,
+          "ask_price": 0.12,
+          "learning": true
+        },
+        "load": {
+          "scale": 1
+        },
+        "generation": {
+          "scale": 1
+        }
+      },
+      "R9": {
+        "type": "Residential",
+        "trader": {
+          "track_metrics": true,
+          "type": "sma_crossover",
+          "bid_price": 0.08,
+          "ask_price": 0.12,
+          "learning": true
+        },
+        "load": {
+          "scale": 1
+        },
+        "generation": {
+          "scale": 1
+        }
+      },
+      "R10": {
+        "type": "Residential",
+        "trader": {
+          "track_metrics": true,
+          "type": "sma_crossover",
+          "bid_price": 0.08,
+          "ask_price": 0.12,
+          "learning": true
+        },
+        "load": {
+          "scale": 0.5
+        },
+        "generation": {
+          "scale": 0
+        },
+        "storage": {
+          "type": "Bess",
+          "capacity": 27000,
+          "power": 10000,
+          "efficiency": 0.95,
+          "monthly_sdr": 0.05
+        }
+      },
+      "R11": {
+        "type": "Residential",
+        "trader": {
+          "track_metrics": true,
+          "type": "sma_crossover",
+          "bid_price": 0.08,
+          "ask_price": 0.12,
+          "learning": true
+        },
+        "load": {
+          "scale": 1
+        },
+        "generation": {
+          "scale": 0
+        },
+        "storage": {
+          "type": "Bess",
+          "capacity": 27000,
+          "power": 10000,
+          "efficiency": 0.95,
+          "monthly_sdr": 0.05
+        }
+      },
+      "R12": {
+        "type": "Residential",
+        "trader": {
+          "track_metrics": true,
+          "type": "sma_crossover",
+          "bid_price": 0.08,
+          "ask_price": 0.12,
+          "learning": true
+        },
+        "load": {
+          "scale": 1
+        },
+        "generation": {
+          "scale": 1
+        }
+      },
+      "R13": {
+        "type": "Residential",
+        "trader": {
+          "track_metrics": true,
+          "type": "sma_crossover",
+          "bid_price": 0.08,
+          "ask_price": 0.12,
+          "learning": true
+        },
+        "load": {
+          "scale": 1
+        },
+        "generation": {
+          "scale": 1
+        }
+      },
+      "R14": {
+        "type": "Residential",
+        "trader": {
+          "track_metrics": true,
+          "type": "sma_crossover",
+          "bid_price": 0.08,
+          "ask_price": 0.12,
+          "learning": true
+        },
+        "load": {
+          "scale": 1
+        },
+        "generation": {
+          "scale": 1
+        }
+      }
+    }
+  }
+  
